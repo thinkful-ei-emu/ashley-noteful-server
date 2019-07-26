@@ -23,7 +23,7 @@ module.exports = {
     },
     "plugins": [
         "react",
-        "prettier"
+        // "prettier"
     ],
     "rules": {
         "strict": ["error", "safe"],   //prefer `'use-strict';` pragma        

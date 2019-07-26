@@ -1,0 +1,17 @@
+{"message":"folderName is required","level":"error"}
+{"message":"folderName is required","level":"error"}
+{"message":"folderName is required","level":"error"}
+{"message":"folderName is required","level":"error"}
+{"message":"folderName is required","level":"error"}
+{"message":"folderName is required","level":"error"}
+{"message":"folderName is required","level":"error"}
+{"message":"folderName is required","level":"error"}
+{"message":"Folder with id 20 was created","level":"info"}
+{"message":"folderName is required","level":"error"}
+{"message":"Folder with id 22 was created","level":"info"}
+{"message":"Folder with id 4 was created","level":"info"}
+{"message":"Folder with id 4 deleted","level":"info"}
+{"message":"Bookmark with id 4 not found.","level":"error"}
+{"message":"Folder with id 5 was created","level":"info"}
+{"message":"Folder with id 5 deleted","level":"info"}
+{"message":"Folder with id 6 was created","level":"info"}
