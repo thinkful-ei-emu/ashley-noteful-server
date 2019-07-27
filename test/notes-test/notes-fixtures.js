@@ -1,19 +1,3 @@
-function makeFoldersArray(){
-  return [
-    {
-      id: 1,
-      name: "Important"
-    },
-    {
-      id: 2,
-      name: "Super"
-    },
-    {
-      id: 3,
-      name: "Spangley"
-    }
-  ]
-};
 
 function makeNotesArray(){
   return [
@@ -52,8 +36,25 @@ function makeNotesArray(){
       folderId: 2,
       content: "Distinctio dolor nihil ad iure quo tempore id ipsum. Doloremque sunt dicta odit. Id veritatis aut et doloremque natus.\n \rDeleniti temporibus repellendus molestias nemo. Cupiditate quae consectetur. Reiciendis corporis maxime consequatur qui quaerat cum aut. Quia officiis aut.\n \rAsperiores aut culpa voluptatem amet accusantium officia. Et et et adipisci ullam nesciunt eum magni totam. Quae repellendus suscipit animi vel laudantium sed enim nulla esse. Cupiditate quos minus laudantium autem eum quas tempore. Eos quibusdam quibusdam. Voluptatem molestiae qui accusamus blanditiis voluptates quia."
     }    
-  ]
+  ];
 }
 
-module.exports = {makeFoldersArray, makeNotesArray};
+function makeMaliciousNote() {
+  const maliciousNote = {
+    id: 911,
+    name: 'Malicious note <script>alert("xss");</script>',
+   
+  };
+  const expectedNote = {
+    ...maliciousNote,
+    name: 'Malicious note &lt;script&gt;alert(\"xss\");&lt;/script&gt;',
+    
+  };
+  return {
+    maliciousNote,
+    expectedNote,
+  };
+}
+
+module.exports = {makeNotesArray, makeMaliciousNote};
 
