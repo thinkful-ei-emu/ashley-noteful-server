@@ -74,3 +74,27 @@
 {"message":"folder 'name' is required","level":"error"}
 {"message":"Folder with id 1 was created","level":"info"}
 {"message":"Folder with id 1 was created","level":"info"}
+{"message":"Folder with id 123 not found.","level":"error"}
+{"message":"Folder with id 123 not found.","level":"error"}
+{"message":"Folder with id 2 deleted","level":"info"}
+{"message":"folder 'name' is required","level":"error"}
+{"message":"Folder with id 1 was created","level":"info"}
+{"message":"Folder with id 1 was created","level":"info"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Folder with id 123 not found.","level":"error"}
+{"message":"Folder with id 123 not found.","level":"error"}
+{"message":"Folder with id 2 deleted","level":"info"}
+{"message":"folder 'name' is required","level":"error"}
+{"message":"Folder with id 1 was created","level":"info"}
+{"message":"Folder with id 1 was created","level":"info"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Folder with id 123 not found.","level":"error"}
+{"message":"Folder with id 123 not found.","level":"error"}
+{"message":"Folder with id 2 deleted","level":"info"}
+{"message":"folder 'name' is required","level":"error"}
+{"message":"Folder with id 1 was created","level":"info"}
+{"message":"Folder with id 1 was created","level":"info"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
