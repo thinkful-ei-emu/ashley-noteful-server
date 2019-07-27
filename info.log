@@ -19,3 +19,35 @@
 {"message":"Note with id 6 was created","level":"info"}
 {"message":"'folder_id' is required","level":"error"}
 {"message":"Note with id 6 was created","level":"info"}
+{"message":"Folder with id 6 deleted","level":"info"}
+{"message":"Note with id 7 was created","level":"info"}
+{"message":"Note with id 8 was created","level":"info"}
+{"message":"Note with id 9 was created","level":"info"}
+{"message":"Folder with id 9 deleted","level":"info"}
+{"message":"Folder with id 8 deleted","level":"info"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Note with id 10 was created","level":"info"}
+{"message":"Invalid update with 'folder_id'","level":"error"}
+{"message":"Invalid update with 'folder_id'","level":"error"}
+{"message":"Invalid update with 'folder_id'","level":"error"}
+{"message":"Invalid update with 'folder_id'","level":"error"}
+{"message":"Invalid update with 'folder_id'","level":"error"}
+{"message":"A valid 'folder_id' is required","level":"error"}
+{"message":"A valid 'folder_id' is required","level":"error"}
+{"message":"A valid 'folder_id' is required","level":"error"}
+{"message":"Note with id 11 was created","level":"info"}
+{"message":"A valid 'folder_id' is required","level":"error"}
+{"message":"A valid 'folder_id' is required","level":"error"}
+{"message":"A valid 'folder_id' is required","level":"error"}
+{"message":"A valid 'folder_id' is required","level":"error"}
+{"message":"A valid 'folder_id' is required","level":"error"}
+{"message":"A valid 'folder_id' is required","level":"error"}
+{"message":"Note with id 12 was created","level":"info"}
+{"message":"A valid 'folder_id' is required","level":"error"}
+{"message":"Note with id 13 was created","level":"info"}
+{"message":"Note with id 14 was created","level":"info"}
+{"message":"A valid 'folder_id' is required","level":"error"}
+{"message":"A valid 'folder_id' is required","level":"error"}
+{"message":"A valid 'folder_id' is required","level":"error"}
+{"message":"Invalid update with 'folder_id'","level":"error"}

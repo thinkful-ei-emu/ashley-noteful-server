@@ -47,9 +47,9 @@ foldersRouter
     FoldersService.getById(req.app.get('db'), folder_id)    
       .then(folder => {
         if (!folder) {
-          logger.error(`Bookmark with id ${folder_id} not found.`);
+          logger.error(`Folder with id ${folder_id} not found.`);
           return res.status(404).json({
-            error: { message: `Bookmark Not Found` }
+            error: { message: `Folder Not Found` }
           });
         }
         
