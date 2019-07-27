@@ -15,3 +15,7 @@
 {"message":"Folder with id 5 was created","level":"info"}
 {"message":"Folder with id 5 deleted","level":"info"}
 {"message":"Folder with id 6 was created","level":"info"}
+{"message":"'folderId' is required","level":"error"}
+{"message":"Note with id 6 was created","level":"info"}
+{"message":"'folder_id' is required","level":"error"}
+{"message":"Note with id 6 was created","level":"info"}

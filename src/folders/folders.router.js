@@ -23,19 +23,21 @@ foldersRouter
   .post(bodyParser, (req, res, next) => {
     const {name} = req.body;    
     if (!name)    {     
-      logger.error(`folderName is required`);
+      logger.error(`folder 'name' is required`);
       return res.status(400).send({
-        error: { message: `'folder name' is required` }
+        error: { message: `folder 'name' is required` }
       });
     }     
     const newFolder = {name};
     FoldersService.insertFolder(
       req.app.get('db'),
       newFolder
-    ).then(folder => {
-      logger.info(`Folder with id ${folder.id} was created`);
-      res.status(201).location(`/${folder.id}`).json(serializeFolder(folder));
-    }).catch(next);
+    )
+      .then(folder => {
+        logger.info(`Folder with id ${folder.id} was created`);
+        res.status(201).location(`/${folder.id}`).json(serializeFolder(folder));
+      })
+      .catch(next);
 
   });
 foldersRouter
