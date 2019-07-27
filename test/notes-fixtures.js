@@ -41,14 +41,16 @@ function makeNotesArray(){
 
 function makeMaliciousNote() {
   const maliciousNote = {
-    id: 911,
+    id: 911,    
+    modified: "2018-07-12T23:00:00.000Z",
+    folderId: 2,
     name: 'Malicious note <script>alert("xss");</script>',
-   
+    content: `Bad image <img src="https://url.to.file.which/does-not.exist" onerror="alert(document.cookie);">. But not <strong>all</strong> bad.`   
   };
   const expectedNote = {
     ...maliciousNote,
     name: 'Malicious note &lt;script&gt;alert(\"xss\");&lt;/script&gt;',
-    
+    content: `Bad image <img src="https://url.to.file.which/does-not.exist">. But not <strong>all</strong> bad.`    
   };
   return {
     maliciousNote,
