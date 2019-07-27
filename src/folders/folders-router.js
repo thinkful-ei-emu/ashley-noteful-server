@@ -35,7 +35,7 @@ foldersRouter
     )
       .then(folder => {
         logger.info(`Folder with id ${folder.id} was created`);
-        res.status(201).location(`/${folder.id}`).json(serializeFolder(folder));
+        res.status(201).location(`/api/folders/${folder.id}`).json(serializeFolder(folder));
       })
       .catch(next);
 
