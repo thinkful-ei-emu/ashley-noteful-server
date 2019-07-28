@@ -199,3 +199,85 @@
 {"message":"'name' is required","level":"error"}
 {"message":"'folder_id' is required","level":"error"}
 {"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"'name' is required","level":"error"}
+{"message":"'folder_id' is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"'name' is required","level":"error"}
+{"message":"'folder_id' is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Folder with id 2 deleted","level":"info"}
+{"message":"'name' is required","level":"error"}
+{"message":"'folder_id' is required","level":"error"}
+{"message":"Note with id 1 was created","level":"info"}
+{"message":"Note with id 2 was created","level":"info"}
+{"message":"Note with id 3 was created","level":"info"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Folder with id 2 deleted","level":"info"}
+{"message":"'name' is required","level":"error"}
+{"message":"'folder_id' is required","level":"error"}
+{"message":"Note with id 4 was created","level":"info"}
+{"message":"Note with id 5 was created","level":"info"}
+{"message":"Note with id 6 was created","level":"info"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Folder with id 2 deleted","level":"info"}
+{"message":"'name' is required","level":"error"}
+{"message":"'folder_id' is required","level":"error"}
+{"message":"Note with id 7 was created","level":"info"}
+{"message":"Note with id 8 was created","level":"info"}
+{"message":"Note with id 9 was created","level":"info"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Folder with id 2 deleted","level":"info"}
+{"message":"'name' is required","level":"error"}
+{"message":"'folder_id' is required","level":"error"}
+{"message":"Note with id 10 was created","level":"info"}
+{"message":"Note with id 11 was created","level":"info"}
+{"message":"Note with id 12 was created","level":"info"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Folder with id 2 deleted","level":"info"}
+{"message":"'name' is required","level":"error"}
+{"message":"'folder_id' is required","level":"error"}
+{"message":"Note with id 13 was created","level":"info"}
+{"message":"Note with id 14 was created","level":"info"}
+{"message":"Note with id 15 was created","level":"info"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update with 'folder_id'","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Folder with id 2 deleted","level":"info"}
+{"message":"'name' is required","level":"error"}
+{"message":"'folder_id' is required","level":"error"}
+{"message":"Note with id 16 was created","level":"info"}
+{"message":"Note with id 17 was created","level":"info"}
+{"message":"Note with id 18 was created","level":"info"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update with 'folder_id'","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Folder with id 2 deleted","level":"info"}
+{"message":"'name' is required","level":"error"}
+{"message":"'folder_id' is required","level":"error"}
+{"message":"Note with id 19 was created","level":"info"}
+{"message":"Note with id 20 was created","level":"info"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update with 'folder_id'","level":"error"}

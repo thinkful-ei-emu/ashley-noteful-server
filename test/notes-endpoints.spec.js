@@ -16,9 +16,9 @@ describe('Notes Endpoints', () => {
 
   after('disconnect from db', () => db.destroy());
 
-  before('cleanup', () => db.raw('truncate notes, folders RESTART IDENTITY'));
+  before('cleanup', () => db.raw('truncate notes'));
 
-  afterEach('cleanup', () =>db.raw('truncate notes, folders RESTART IDENTITY'));
+  afterEach('cleanup', () =>db.raw('truncate notes'));
 
   describe('GET /api/notes', () => {
     context(`Given no notes`, () => {
@@ -112,7 +112,7 @@ describe('Notes Endpoints', () => {
           .expect(200)
           .expect(res => {
             expect(res.body.name).to.eql(expectedNote.name);
-            expect(res.body.content.to.eql(expectedNote.content));          
+            expect(res.body.content).to.eql(expectedNote.content);          
           });
       });
     });
@@ -152,10 +152,10 @@ describe('Notes Endpoints', () => {
     });
   });
   describe('POST /api/notes', () => {
-    ['name', 'folder_id', 'content'].forEach(field => {
+    ['name', 'folder_id'].forEach(field => {
       const newnote = {
         name: 'test-name',
-        folder_id: '1',                       
+        folder_id: 1,                       
       };
 
       it(`responds with 400 missing '${field}' if not supplied`, () => {
@@ -173,7 +173,7 @@ describe('Notes Endpoints', () => {
     it('adds a new note to the store', () => {
       const newnote = {
         name: 'test-name',
-        folder_id: '1',
+        folder_id: 1,
         content: 'test content'
       };
       return supertest(app)
@@ -226,7 +226,7 @@ describe('Notes Endpoints', () => {
         const idToUpdate = 2;
         const updateNote = {
           name: 'updated note name',
-          folder_id: '1',
+          folder_id: 1,
           content: 'test content'          
         };
         const expectedArticle = {
@@ -287,7 +287,7 @@ describe('Notes Endpoints', () => {
           folder_id: 'invalid',
         };
         return supertest(app)
-          .patch(`/api/bookmarks/${idToUpdate}`)          
+          .patch(`/api/notes/${idToUpdate}`)          
           .send(updateInvalidRating)
           .expect(400, {
             error: {

@@ -49,7 +49,7 @@ notesRouter
     )
       .then(note => {
         logger.info(`Note with id ${note.id} was created`);
-        res.status(201).location(`/${note.id}`).json(serializeNote(note));
+        res.status(201).location(`/api/notes/${note.id}`).json(serializeNote(note));
       })
       .catch(next);
   });
